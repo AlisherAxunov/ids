@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Hind+Siliguri&family=Montserrat&family=Neucha&family=Noto+Serif&family=Nunito+Sans:wght@300&family=Poppins:wght@300;400&family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+button {
+  cursor: pointer; }
+
+div {
+  font-family: 'Roboto'; }
+
+.logo {
+  width: 1920px;
+  height: 1040px;
+  border: 1px solid black;
+  background-image: url(./icon/logo.png); }
+  .logo h1 {
+    color: white;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 155px;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 300px; }
+  .logo button {
+    padding: 25px 70px;
+    background-color: #4d4dd1;
+    border-radius: 50px;
+    position: relative;
+    top: 350px;
+    left: 860px;
+    border: none;
+    color: white;
+    font-size: 24px; }
+
+.features {
+  width: 1920px;
+  height: 500px;
+  border: 1px solid black; }
+  .features h1 {
+    font-size: 80px;
+    text-align: center;
+    margin: 50px 0;
+    background: linear-gradient(90deg, #F06545 -1.78%, #C4629A 51.83%, #6D80BD 104.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; }
+  .features p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    font-style: normal;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
